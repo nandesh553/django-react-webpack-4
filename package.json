@@ -1,0 +1,41 @@
+{
+  "name": "django_react",
+  "version": "1.0.0",
+  "description": "Django with React using Webpack 4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandesh553/django-react-webpack-4.git"
+  },
+  "keywords": [
+    "django",
+    "react",
+    "webpack",
+    "babel"
+  ],
+  "author": "Nandeshwar Gupta <guptanandeshwar553@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandesh553/django-react-webpack-4/issues"
+  },
+  "homepage": "https://github.com/nandesh553/django-react-webpack-4#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
+}
